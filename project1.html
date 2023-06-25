@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #div{
+            width:100%;
+            height:1000%;
+            background-image:url("./R.jpeg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            position: absolute;
+           
+        }
+        #pp{
+            list-style:none ;
+            float:left;
+            justify-content:space-evenly ;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: left;
+            padding: opx 30px;
+            color: bisque;
+        }
+        #s1{
+            transition:0,5s ;
+            width:16%;
+            height: 200px;
+            position: absolute;
+            left:1100px ;
+            top: 100px;
+            border-radius: 16%;
+            opacity:0.7px ;
+        }
+        #s1:hover{
+            opacity: 2;
+            transform: scale(1.2);
+        }
+        #s1,#hy:hover{
+            opacity: 1;
+        }
+                #s2{
+            transition:0,5s ;
+            width:16%;
+            height: 200px;
+            position: absolute;
+            left:800px ;
+            top: 100px;
+            border-radius: 16%;
+            opacity:0.7px ;
+        }
+        #s2:hover{
+            opacity: 2;
+            transform: scale(1.2);
+        }
+        #s3{
+            transition:0,5s ;
+            width:16%;
+            height: 200px;
+            position: absolute;
+            left:1100px ;
+            top: 320px;
+            border-radius: 16%;
+            opacity:0.7px ;
+        }
+        #s3:hover{
+            opacity: 2;
+            transform: scale(1.2);
+        }
+        #s4{
+            transition:0,5s ;
+            width:16%;
+            height: 200px;
+            position: absolute;
+            left:800px ;
+            top: 320px;
+            border-radius: 16%;
+            opacity:0.7px ;
+        }
+        #s4:hover{
+            opacity: 2;
+            transform: scale(1.2);
+        }
+        #j1{
+            position: absolute;
+            left:150px;
+            top:100px;
+            font-size:100px ;
+            color: chartreuse;
+            font-weight:bold;
+            font-style: inherit;
+        }#j2{
+            position: absolute;
+            left:150px;
+            top:250px;
+            color: chartreuse;
+            font-size:100px ;
+            font-weight:bold;
+            font-style: inherit;
+        }
+        #j3{
+            position: absolute;
+            left:150px;
+            top:400px;
+            color: chartreuse;
+            font-size:100px ;
+            font-weight:bold;
+            font-style: inherit;
+        }
+        #box{
+            top:400px;
+            position: relative;
+            width: 150px;
+            height:60px ;
+            color: rgb(26, 3, 3);
+            font-size:40px;
+            font-weight: bold;
+            text-align: center;
+            border:2px solid green ;
+            border-radius: 0px 0px 60px 0px;
+            background-color: green;
+            display:flex;
+            justify-content: space-evenly;
+        }
+        #T1{
+            position: relative;
+            width:150px ;
+            left:10px ;
+            top:410px ;
+            font-size: 20px;
+            color:b;
+            text-align: justify;
+        }
+        hover h1{
+            opacity: 1;
+        }
+        #video1{
+            position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+        }
+        #video1{
+            position:absolute;
+        top:530px;
+      left:180px;
+      width: 50%;
+      height: 70%;
+      padding: inherit;
+      border-radius:10px 10px 10px 10px ;
+        }
+     #map1{
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+     }
+     #map1{
+            position:absolute;
+        top:510px;
+      left:720px;
+      width: 50%;
+      height: 20%;
+      padding:30px;
+     }
+     #b1{
+        top:410px;
+        float:left;
+        width:150px;
+        height:100px;
+        position: relative;
+     }
+     #b2{
+        top:460px;
+        float:left;
+        width:150px;
+        height:100px;
+        position: relative;
+     }
+     #box2{
+            top:450px;
+            position: relative;
+            width: 170px;
+            height:100px ;
+            left:2px ;
+            color: rgb(26, 3, 3);
+            font-size:40px;
+            font-weight: bold;
+            text-align:left;
+            border:2px solid green ;
+            border-radius: 0px 0px 60px 0px;
+            background-color: green;
+            display:flex;
+            justify-content: space-evenly;
+        }
+        #T2{
+            position: relative;
+            width:150px ;
+            left:10px ;
+            top:470px ;
+            box-shadow: blue;
+            border-color: blue;
+            font-size: 20px;
+            color:rgb(25, 21, 2);
+            text-align: justify;
+        }
+        #video2{
+            position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+        }
+        #video2{
+            position: absolute;
+        top:1200px;
+        left:200px;
+        width: 50%;
+       height: 70%;
+        padding: inherit;
+        border-radius:10px 10px 10px 10px ;
+        }
+        #map2{
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+     }
+     #map2{
+            position:absolute;
+        top:1170px;
+      left:750px;
+      width: 40%;
+      height: 20%;
+      padding:30px;
+     }
+     #box3{
+            top:500px;
+            position: relative;
+            width: 150px;
+            height:60px ;
+            color: rgb(26, 3, 3);
+            font-size:40px;
+            font-weight: bold;
+            text-align: center;
+            border:2px solid green ;
+            border-radius: 0px 0px 60px 0px;
+            background-color: green;
+            display:flex;
+            justify-content: space-evenly;
+        }
+        #T3{
+            position: relative;
+            width:150px ;
+            left:10px ;
+            top:530px ;
+            box-shadow: blue;
+            border-color: blue;
+            font-size: 20px;
+            color:rgb(25, 21, 2);
+            text-align: justify;
+        }
+        #b3{
+        top:510px;
+        float:left;
+        width:150px;
+        height:100px;
+        position: relative;
+     }
+     #video3{
+            position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+        }
+        #video3{
+            position: absolute;
+        top:1750px;
+        left:190px;
+        width: 50%;
+       height: 70%;
+        padding: inherit;
+        border-radius:10px 10px 10px 10px ;
+        }
+        #map3{
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+     }
+     #map3{
+            position:absolute;
+        top:1750px;
+      left:750px;
+      width: 40%;
+      height: 20%;
+      padding:30px;
+     }
+    </style>
+</head>
+<body>
+    <div id="div">
+        <ul>
+            <li id="pp">FOOD</li>
+            <li id="pp">CONTACT US</li>
+        </ul>
+       <p><strong id="j1">FOOD</strong><br><br><span id="j2">AND</span><br><br><span id="j3">TRAVEL</span></p>
+       <div>
+        <img id="s1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Charminar-Pride_of_Hyderabad.jpg/1200px-Charminar-Pride_of_Hyderabad.jpg"></img>
+        <img id="s2" src="https://th.bing.com/th/id/R.65d256c15e4747f144f65f8cdfe83764?rik=7FGWhYQ%2fjEWUDw&riu=http%3a%2f%2fwww.travelstart.com.ng%2fblog%2fwp-content%2fuploads%2f2017%2f05%2fmumbai.jpg&ehk=TVI%2fAoj7q1dm%2fJS5LxPhgPzfpqlvSBCd8sAsz3jRBTc%3d&risl=&pid=ImgRaw&r=0"><img>
+        <img id="s3" src="https://www.tripsavvy.com/thmb/P-vBKShJXcsDT_5m-IF2xSMQ8q0=/3600x2400/filters:fill(auto,1)/GettyImages-522478216-5ab12c4e3de4230036949cee.jpg"></img>
+        <img id="s4" src="https://th.bing.com/th/id/R.064bd59d76d9fb16c998ed6e741789a3?rik=gBf1Jw3u3lzUIA&riu=http%3a%2f%2fblog.kitemanja.com%2fwp-content%2fuploads%2f2020%2f04%2fSivadol-sivasagar-bitu-chetia-1024x698.jpg&ehk=3HYGuKgaPLPslOICcMyxYABOjADq8xYzvftq6IsG0Sg%3d&risl=&pid=ImgRaw&r=0"></img>
+        <div>
+            <section id="sec1">
+                <div id="box"><strong>Biryani</strong></div>
+                <div>
+                    <img id="b1" src="./biryani.jpg"><img>
+                </div>
+                <h1 id="T1">There are many types of biryani, whose names are often based on their region of origin. For example, Sindhi biryani developed in the Sindh region of what is now Pakistan, and Hyderabadi biryani developed in the city of Hyderabad in South India.</h1>
+                <div id="video1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aleED1mc5kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+                </div>
+                <div id="map1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d25419.94460132227!2d78.38756560839694!3d17.489347087956478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bcb91eb2c6d92f9%3A0x9c9db3601314e351!2sGRE%2C%20GMAT%2C%20SAT%2C%20IELTS%20Coaching%20in%20Kukatpally%20%7C%20Hyderabad%2C%20Swagath%20Hotel%20Building%2C%20Alluri%20Trade%20Centre%2C%203rd%20%26%205th%20Floor%2C%20NH%2065%2C%20next%20to%20South%20India%20Shopping%20Mall%2C%20Kukatpally%20Housing%20Board%20Colony%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!3m2!1d17.493398!2d78.4037709!5e0!3m2!1sen!2sin!4v1679592387778!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section id="sec2">
+                <div id="box2"><strong>palakura pappu</strong>
+                </div>
+                <div>
+                    <img id="b2" src="./palakurapappu.jpg"><img>
+                </div>
+                 <h1 id="T2">Palakura pappu is a simple andhra style lentil dish cooked with indian spinach and tempered with spices. This is usually served with rice or chapati.</h1>
+                 <div id="video2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6cNq-WbUp1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 </div>
+                 <div id="map2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507983.9374098257!2d79.83967538581624!3d17.712733569274388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33450bd75e4be7%3A0x9306909c277bc137!2sWarangal%2C%20Telangana!5e0!3m2!1sen!2sin!4v1679665651084!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
+                </div>
+            </section>
+            <section id="sec3">
+                <div id="box3"><strong>fish fry</strong></div>
+                <div>
+                    <img id="b3" src="./fish.jpg"></img>
+                </div>
+                <h1 id="T3">Fish fry recipe made with basic ingredients in South Indian style. Crispy, delicious and flavorful fish fry can be served as a appetizer or as a side in a meal.</h1>
+                <div id="video3">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/XaPIumr1_mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+                </div>
+                <div id="map3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4635484342316!2d78.45058463305296!3d17.370567502809973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97a30fe44921%3A0xc6572eb9653e5e33!2sTasty%20Fish%20Fry%20Point!5e0!3m2!1sen!2sin!4v1679997745620!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </section>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
